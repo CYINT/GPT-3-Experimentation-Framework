@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gpt-3"
+version = "0.1.0"
+description = ""
+authors = ["CYINT <info@cyint.technology>"]
+readme = "README.md"
+packages = [{include = "gpt_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
