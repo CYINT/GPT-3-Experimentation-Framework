@@ -9,6 +9,8 @@ packages = [{include = "gpt_3"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 openai = "^0.23.0"
+streamlit = "^1.13.0"
+graphviz = "^0.20.1"
 
 
 [build-system]
